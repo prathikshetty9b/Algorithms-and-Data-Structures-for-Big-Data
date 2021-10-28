@@ -1,0 +1,5 @@
+1.Compute the sum of ‘n’ numbers present in file.
+2.Write function to generate square of a number.
+3.Write function to store the numbers in other file in reversed order.
+4.Write function to compute number of times a pattern present in the given text data.
+5.Write function to find the length of each lines.
