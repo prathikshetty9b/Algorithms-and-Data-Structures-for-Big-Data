@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1634406349 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems\main.c
+	<stdio.h>
+	<assert.h>
+	"header.h"
+
+1634400787 d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems\header.h
+
+1634405238 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems\functions.c
+	<stdio.h>
+	<string.h>
+	"header.h"
+
+1634905243 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-1\main.c
+	<stdio.h>
+	<assert.h>
+	"header.h"
+
+1634904901 d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-1\header.h
+
+1634905616 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-1\functions.c
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	"header.h"
+
+1634905243 source:d:\my folders\manipal\algorithms-and-data-structures\c-practice-problems\c-practice-problems-lab-1\main.c
+	<stdio.h>
+	<assert.h>
+	"header.h"
+
+1634904901 d:\my folders\manipal\algorithms-and-data-structures\c-practice-problems\c-practice-problems-lab-1\header.h
+

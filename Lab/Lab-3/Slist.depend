@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1635316152 source:d:\my folders\manipal\algorithms and data structures\lab\lab-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"slist.h"
+
+1635315377 d:\my folders\manipal\algorithms and data structures\lab\lab-3\slist.h
+	<stdint.h>
+
+1635315930 source:d:\my folders\manipal\algorithms and data structures\lab\lab-3\slist.c
+	<stdlib.h>
+	<assert.h>
+	"slist.h"
+

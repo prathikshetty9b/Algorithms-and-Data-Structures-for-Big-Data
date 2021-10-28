@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1634718989 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-2\code-block-workspace\main.c
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	"header.h"
+
+1634719540 d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-2\code-block-workspace\header.h
+
+1634719478 source:d:\my folders\manipal\algorithms and data structures\c-practice-problems\c-practice-problems-lab-2\code-block-workspace\functions.c
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	"header.h"
+
