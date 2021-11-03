@@ -14,11 +14,9 @@ Store this information in “Employee.txt” file. Read the data from file and p
 
 4. Place the employees in separate files based on their designation.
 
+ >⚠️ **Note : All the text files are in binary format** 
 ---
-| ⚠️ **Note : All the text files are in binary format** |
-| --- |
-
-## Header File [`file.h`]()
+## Header File [`file.h`](file.h)
 
 ```c
 #define INVALID -1
@@ -63,7 +61,7 @@ typedef struct _employee_
 
 ---
 
-## Functions [`file.c`]()
+## Functions [`file.c`](file.c)
 
 **Create structure to store details of Employees. Data need to be stored are Name, EmpID, Phone number, Designation and salary. Store this information in “Employee.txt” file. Read the data from file and perform the following actions.**
 
@@ -203,7 +201,7 @@ void employees_separate_designation(char *file_name)
 
 ---
 
-## Main Function [`main.c`]()
+## Main Function [`main.c`](main.c)
 
 ```c
 
