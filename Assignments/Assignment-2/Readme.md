@@ -13,9 +13,11 @@ Store this information in “Employee.txt” file. Read the data from file and p
 3. Total salary of all employees.
 
 4. Place the employees in separate files based on their designation.
-
- >⚠️ **Note : All the text files are in binary format** 
 ---
+```
+ ⚠️ Note : All the text files are in binary format
+ ```
+ ---
 ## Header File [`file.h`](file.h)
 
 ```c
