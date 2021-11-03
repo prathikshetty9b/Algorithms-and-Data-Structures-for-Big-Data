@@ -1,16 +1,18 @@
+/*********
+Author: Prathik B Shetty
+Date: 29 Oct 2021
+**********/
+
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include "header.h"
+#include "file.h"
 
-
-/* Create Structure to store details of Employees. Data need to be stored are Name, EmpID, Phone number,Designation, Salary.
-    *Store this information in "Employee.txt" file. Read the data from the file and perform the following actions.
+/*1. Create Structure to store details of Employees. Data need to be stored are Name, EmpID, Phone number,Designation, Salary.
+     *Store this information in "Employee.txt" file. Read the data from the file and perform the following actions.
 */
 void add_employee_to_file()
 {
-
-
     FILE *file;
 
     //Create Employee.txt file
@@ -18,7 +20,7 @@ void add_employee_to_file()
     assert( file != NULL);
 
     //Create employees
-    Employee e1 = {"Prathik",101, 7022410278, "Developer",50000};
+    Employee e1 = {"Prathik", 101, 7022410278, "Developer",50000};
     Employee e2 = {"Rohan", 102, 9876542541, "Senior Developer", 80000};
     Employee e3 = {"Sohan", 103, 8546547892, "Senior Developer", 90000};
 
@@ -29,24 +31,9 @@ void add_employee_to_file()
 
     fclose(file);
 
-
 }
 
-void display_employee()
-{
-    Employee e;
-    FILE *file;
-    file = fopen("Employee.txt","r");
-    assert (file != NULL);
-
-    //Read until fread returns 0
-    while(fread(&e, sizeof(Employee), 1, file))
-        printf("\t%s,%d,%d,%s,%d\n",e.name,e.id,e.phone,e.designation,e.salary);
-
-
-}
-
-//Count Total number of employees.
+//1.Count Total number of employees.
 int count_employees()
 {
     Employee e;
@@ -60,14 +47,13 @@ int count_employees()
     while(fread(&e, sizeof(Employee), 1, file))
         count++;
 
-    printf("\tNumber of Records : %d",count);
     return count;
 }
 
-//Count number of employees with same designation
-int number_of_employees_with_same_designation(char* desi)
+//2.Count number of employees with same designation
+int number_of_employees_with_same_designation(char* designation)
 {
-    int count=0,count1=0;
+    int count=0;
     FILE *file;
     file = fopen("Employee.txt","r");
     assert (file != NULL);
@@ -75,14 +61,14 @@ int number_of_employees_with_same_designation(char* desi)
     Employee e;
     while(fread(&e, sizeof(Employee), 1, file))
     {
-        if(!strcmp(e.designation,desi))
+        if(!strcmp(e.designation,designation))
         {
             count++;
         }
     }
-    printf("Count = %d",count);
     return count;
 }
+
 //3.Total Salary of all employees
 int total_salary()
 {
@@ -92,38 +78,40 @@ int total_salary()
     assert (file != NULL);
 
     Employee e;
+    //Read until fread returns 0
     while(fread(&e, sizeof(Employee), 1, file))
     {
         sum+=e.salary;
     }
-    printf("Total Salary = %d",sum);
     return sum;
 }
 
-//Place the employees in separate file based on their designation
-int employees_separate_designation()
+//4. Place the employees in separate file based on their designation
+void employees_separate_designation()
 {
-    int sum=0;
-    FILE *file,*desi1,*desi2;
+
+    Employee e; //Buffer
+    FILE *file,*designation1,*designation2;
+
+    //Files to be modified
     file = fopen("Employee.txt","r");
+    designation1 =  fopen("Developer.txt","w");
+    designation2 =  fopen("Senior-Developer.txt","w")
+    assert(designation1 != NULL);
+    assert(designation2 != NULL);
     assert (file != NULL);
 
-    Employee e;
+
     while(fread(&e, sizeof(Employee), 1, file))
     {
         if(!strcmp(e.designation,"Developer"))
-        {
-           desi1 =  fopen("Desi1.txt","a");
-           fwrite(&e, sizeof(Employee), 1, desi1);
-           fclose(desi1);
-        }
-        else if(!strcmp(e.designation,"Trainee"))
-        {
-           desi2 =  fopen("Desi2.txt","a");
-           fwrite(&e, sizeof(Employee), 1, desi2);
-           fclose(desi2);
-        }
+           fwrite(&e, sizeof(Employee), 1, designation1);
+
+        else if(!strcmp(e.designation,"Senior Developer"))
+           fwrite(&e, sizeof(Employee), 1, designation2);
     }
-    //printf("Total Salary = %d",sum);
-    return sum;
+
+    fclose(file);
+    fclose(designation1);
+    fclose(designation2);
 }

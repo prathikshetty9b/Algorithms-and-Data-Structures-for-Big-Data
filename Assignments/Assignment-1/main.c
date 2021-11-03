@@ -1,7 +1,13 @@
+/*********
+Author: Prathik B Shetty
+Date: 28 Oct 2021
+**********/
+
 #include <stdio.h>
 #include <assert.h>
 #include "file.h"
-//---------------------------------------------LAB 1 -------------------------------------------------------------
+
+/*---------------------------------------------Assignment 1 -------------------------------------------------------------*/
 
 //1.Text file contains ‘n’ numbers. Compute the sum of ‘n’ numbers present in file.
 void test_sum_of_n_mumbers_in_file()
@@ -27,7 +33,7 @@ void test_store_n_numbers_in_reversed_order()
 //  Pattern is passed as argument to function.
 void test_count_text_pattern()
 {
-    assert(count_text_pattern("Hello how do you do?","count.txt") == 3);
+    assert(count_text_pattern("Hello how do you do?","count.txt") == 4);
 }
 
 //5.Text file contain one sentence per line. Write function to find the length of each lines and write it to another file.
@@ -41,6 +47,7 @@ void test_length_of_each_line_in_file()
 
 int main()
 {
+    //test functions
     test_sum_of_n_mumbers_in_file();
     test_find_square_and_write_to_file();
     test_store_n_numbers_in_reversed_order();
