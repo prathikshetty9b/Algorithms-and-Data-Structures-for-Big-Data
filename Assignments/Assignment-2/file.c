@@ -34,13 +34,13 @@ void add_employee_to_file()
 }
 
 //1.Count Total number of employees.
-int count_employees()
+int count_employees(char *file_name)
 {
     Employee e;
     int count=0;
 
     FILE *file;
-    file = fopen("Employee.txt","r");
+    file = fopen(file_name,"r");
     assert (file != NULL);
 
     //Read until fread returns 0
@@ -51,11 +51,11 @@ int count_employees()
 }
 
 //2.Count number of employees with same designation
-int number_of_employees_with_same_designation(char* designation)
+int number_of_employees_with_same_designation(char * file_name,char* designation)
 {
     int count=0;
     FILE *file;
-    file = fopen("Employee.txt","r");
+    file = fopen(file_name,"r");
     assert (file != NULL);
 
     Employee e;
@@ -70,11 +70,11 @@ int number_of_employees_with_same_designation(char* designation)
 }
 
 //3.Total Salary of all employees
-int total_salary()
+int total_salary(char *file_name)
 {
     int sum=0;
     FILE *file;
-    file = fopen("Employee.txt","r");
+    file = fopen(file_name,"r");
     assert (file != NULL);
 
     Employee e;
@@ -87,21 +87,22 @@ int total_salary()
 }
 
 //4. Place the employees in separate file based on their designation
-void employees_separate_designation()
+void employees_separate_designation(char *file_name)
 {
 
     Employee e; //Buffer
     FILE *file,*designation1,*designation2;
 
     //Files to be modified
-    file = fopen("Employee.txt","r");
+    file = fopen(file_name,"r");
     designation1 =  fopen("Developer.txt","w");
-    designation2 =  fopen("Senior-Developer.txt","w")
+    designation2 =  fopen("Senior-Developer.txt","w");
     assert(designation1 != NULL);
     assert(designation2 != NULL);
     assert (file != NULL);
 
 
+    //Add employees to separate files
     while(fread(&e, sizeof(Employee), 1, file))
     {
         if(!strcmp(e.designation,"Developer"))

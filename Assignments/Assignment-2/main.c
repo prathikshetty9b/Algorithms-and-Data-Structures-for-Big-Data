@@ -40,24 +40,26 @@ void test_add_employee_to_file(){
 
 void test_count_employees()
 {
-    assert(count_employees() == 3);
+    assert(count_employees("Employee.txt") == 3);
 }
 
 void test_number_of_employees_with_same_designation()
 {
-    assert(number_of_employees_with_same_designation("Developer")== 1 );
-    assert(number_of_employees_with_same_designation("Senior Developer")== 2 );
+    assert(number_of_employees_with_same_designation("Employee.txt","Developer")== 1 );
+    assert(number_of_employees_with_same_designation("Employee.txt","Senior Developer")== 2 );
 
 }
 
 void test_total_salary()
 {
-    assert(total_salary() == 220000);
+    assert(total_salary("Employee.txt") == 220000);
 }
 
 void test_employee_seperate_designation()
 {
-
+    employees_separate_designation("Employee.txt");
+    assert(count_employees("Developer.txt") == 1);
+    assert(count_employees("Senior-Developer.txt") == 2);
 }
 
 /********---------Main Function-----------********/
@@ -67,6 +69,7 @@ int main()
         test_count_employees();
         test_number_of_employees_with_same_designation();
         test_total_salary();
+        test_employee_seperate_designation();
         return 0;
 
 }

@@ -22,7 +22,7 @@ typedef struct _employee_
 #endif // EMP_H_INCLUDED
 
 void add_employee_to_file();
-int count_employees();
-int number_of_employees_with_same_designation(char* designation);
-int total_salary();
-void employees_separate_designation();
+int count_employees(char *file_name);
+int number_of_employees_with_same_designation(char *file_name,char* designation);
+int total_salary(char *file_name);
+void employees_separate_designation(char *file_name);
