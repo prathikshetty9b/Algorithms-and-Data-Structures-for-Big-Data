@@ -14,7 +14,7 @@
 
 ---
 
-## Header file `file.h`
+## Header file [`file.h`](https://github.com/prathikshetty9b/Algorithms-and-Data-Structures-for-Big-Data/blob/main/Assignments/Assignment-1/file.h)
 
 ```c
 /*********
@@ -34,7 +34,7 @@ int length_of_each_line_in_file(char source_file[SIZE], char destination_file[SI
 
 ---
 
-## Functions `file.c`
+## Functions [`file.c`](https://github.com/prathikshetty9b/Algorithms-and-Data-Structures-for-Big-Data/blob/main/Assignments/Assignment-1/file.c)
 
 **1. Text file contains ‘n’ numbers. Compute the sum of ‘n’ numbers present in file.**
 
@@ -243,7 +243,7 @@ int length_of_each_line_in_file(char source_file[SIZE], char destination_file[SI
 
 ---
 
-## Main Function `main.c`
+## Main Function [`main.c`](https://github.com/prathikshetty9b/Algorithms-and-Data-Structures-for-Big-Data/blob/main/Assignments/Assignment-1/main.c)
 
 ```c
 /*********
