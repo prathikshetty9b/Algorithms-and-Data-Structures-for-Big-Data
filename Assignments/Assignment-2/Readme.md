@@ -1,4 +1,4 @@
-# **Algorithms and Data Structers for Big Data**
+# **Algorithms and Data Structures for Big Data**
 ## **Assignment 2 | Due Date : 03 Nov 2021**
 ## Problem Description
 
