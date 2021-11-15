@@ -8,8 +8,8 @@ Date: 29 Oct 2021
 #include <assert.h>
 #include "file.h"
 
-/*1. Create Structure to store details of Employees. Data need to be stored are Name, EmpID, Phone number,Designation, Salary.
-     *Store this information in "Employee.txt" file. Read the data from the file and perform the following actions.
+/* Create Structure to store details of Employees. Data need to be stored are Name, EmpID, Phone number,Designation, Salary.
+  *Store this information in "Employee.txt" file. Read the data from the file and perform the following actions.
 */
 void add_employee_to_file()
 {
