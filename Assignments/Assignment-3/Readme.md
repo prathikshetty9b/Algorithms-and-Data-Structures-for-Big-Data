@@ -1,6 +1,6 @@
 # Algorithms and Data Structures for Big Data
 
-## Assignment 2 | Due Date : 15 Nov 2021
+## Assignment 3 | Due Date : 15 Nov 2021
 
 ## List Assignment
 
