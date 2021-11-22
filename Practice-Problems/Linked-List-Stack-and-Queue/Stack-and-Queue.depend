@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1637515088 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\linked-list-stack-and-queue\main.c
+	"slist.h"
+
+1637515202 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\linked-list-stack-and-queue\slist.h
+	<stdint.h>
+	<assert.h>
+	<stdlib.h>
+
+1637515815 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\linked-list-stack-and-queue\slist.c
+	"slist.h"
+

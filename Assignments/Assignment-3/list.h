@@ -69,10 +69,6 @@ Dlist* dlist_remove_element(Dlist *dlist,int32_t element);
 Dlist* dlist_delete_element(Dlist *dlist, int32_t element);
 uint8_t dlist_lookup(Dlist *dlist, int32_t element);
 
-
-
-
-
 List* reverse_list(List *list);
 
 #endif // LIST_H_INCLUDED

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1637483632 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-queue\main.c
+	<assert.h>
+	"arrayQueue.h"
+
+1637483202 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-queue\arrayqueue.h
+	"constants.h"
+	<stdint.h>
+	<assert.h>
+
+1637476355 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-queue\constants.h
+
+1637483754 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-queue\arrayqueue.c
+	"arrayQueue.h"
+

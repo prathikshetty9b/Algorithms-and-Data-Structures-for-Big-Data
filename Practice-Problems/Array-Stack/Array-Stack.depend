@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1637474175 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-stack\main.c
+	"arrayStack.h"
+	<assert.h>
+
+1637475213 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-stack\arraystack.h
+	"constants.h"
+	<stdint.h>
+
+1637472305 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-stack\constants.h
+
+1637475213 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\array-stack\arraystack.c
+	"arrayStack.h"
+	<assert.h>
+

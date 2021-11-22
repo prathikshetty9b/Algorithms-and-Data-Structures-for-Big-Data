@@ -113,7 +113,7 @@ void test_reverse_list()
 
     test_reverse = reverse_list(test_list);
 
-    assert(test_reverse->head->data == 70);
+    assert(test_reverse->head->data == test_list->tail->data);
     assert(test_reverse->head->next->data == 80);
     assert(test_reverse->tail->data == 50);
 
