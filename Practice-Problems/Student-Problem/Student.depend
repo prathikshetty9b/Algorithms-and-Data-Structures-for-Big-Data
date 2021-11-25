@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1637818642 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\student-problem\main.c
+	"student.h"
+
+1637819860 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\student-problem\student.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+
+1637819860 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\student-problem\student.c
+	"student.h"
+
