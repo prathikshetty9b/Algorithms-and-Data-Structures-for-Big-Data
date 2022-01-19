@@ -241,7 +241,7 @@ List* delete_specified_element(List *list, int32_t element)
                     del = cur->next;
 
                     //Update tail if last element is deleted
-                    if(list->tail->data == del->data)
+                    if(list->tail == del)
                     {
                         list->tail = cur;
 

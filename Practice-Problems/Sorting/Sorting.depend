@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1642599252 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\sorting\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sort.h"
+
+1642598160 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\sorting\sort.h
+	<stdint.h>
+	<assert.h>
+	<stdlib.h>
+
+1642599316 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\sorting\sort.c
+	"sort.h"
+

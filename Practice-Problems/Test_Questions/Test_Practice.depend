@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1638893496 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\test_questions\main.c
+	<stdio.h>
+	<stdlib.h>
+	"trade.h"
+
+1638896311 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\test_questions\trade.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+
+1638896311 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\test_questions\trade.c
+	"trade.h"
+

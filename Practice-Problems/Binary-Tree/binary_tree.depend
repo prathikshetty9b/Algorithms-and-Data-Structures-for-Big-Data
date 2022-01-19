@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1641885546 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\binary-tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+	"slist.h"
+
+1641884349 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\binary-tree\tree.h
+	<assert.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+
+1641886594 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\binary-tree\tree.c
+	"tree.h"
+	"slist.h"
+
+1641884513 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\binary-tree\slist.h
+	<stdint.h>
+	<assert.h>
+	<stdlib.h>
+
+1641884936 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\binary-tree\slist.c
+	"slist.h"
+
