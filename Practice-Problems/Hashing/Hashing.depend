@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1644669463 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\hashing\main.c
+	<stdio.h>
+	<stdlib.h>
+	"hash.h"
+
+1644677525 d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\hashing\hash.h
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+
+1644688585 source:d:\my folders\manipal\algorithms-and-data-structures-for-big-data\practice-problems\hashing\hash.c
+	"hash.h"
+

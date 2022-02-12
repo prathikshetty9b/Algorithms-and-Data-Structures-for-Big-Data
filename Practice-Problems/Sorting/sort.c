@@ -152,3 +152,6 @@ void merge_sort(int32_t list[], uint16_t low, uint16_t high)
         _merge_(list,low,mid,high);
     }
 }
+
+//Heap Sort
+
