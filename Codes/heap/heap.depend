@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1641187042 source:d:\deepak\daytoday\sept2021\ads-oct21\lab\heap\main.c
+	<stdio.h>
+	<assert.h>
+	"heapappconst.h"
+	"heap.h"
+
+1640662626 d:\deepak\daytoday\sept2021\ads-oct21\lab\heap\heapappconst.h
+
+1640835491 d:\deepak\daytoday\sept2021\ads-oct21\lab\heap\heap.h
+	"heapappconst.h"
+	<stdint.h>
+
+1641188207 source:d:\deepak\daytoday\sept2021\ads-oct21\lab\heap\heap.c
+	<assert.h>
+	<string.h>
+	"heapappconst.h"
+	"heap.h"
+	<stdint.h>
+
