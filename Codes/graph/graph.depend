@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1622002185 source:d:\deepak\daytoday\msc ds lab\graph\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"graph.h"
+
+1621829876 d:\deepak\daytoday\msc ds lab\graph\graph.h
+
+1621933964 source:d:\deepak\daytoday\msc ds lab\graph\graph.c
+	<stdlib.h>
+	<assert.h>
+	"graph.h"
+	<stdio.h>
+
